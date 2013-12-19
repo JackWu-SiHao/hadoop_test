@@ -7,7 +7,7 @@ EXECUTABLE = kmeans.jar
 
 $(EXECUTABLE): $(JAVAFILES)
 	mkdir -p $(ID)
-	$(JC) -classpath /opt/hadoop/hadoop-core.jar -d $(ID) $(JAVAFILES)
+	$(JC) -classpath /usr/lib/hadoop/hadoop-core.jar -d $(ID) $(JAVAFILES)
 	jar -cvf $(EXECUTABLE) -C $(ID) .
 
 clean:
