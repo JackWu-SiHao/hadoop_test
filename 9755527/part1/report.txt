@@ -1,0 +1,2 @@
+Hadoop platform: NCTU OpenStack
+Hadoop framework: Typical type (MapReduce API)
