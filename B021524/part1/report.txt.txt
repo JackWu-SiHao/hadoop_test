@@ -1,9 +1,0 @@
-Platform: lab cluster
-Framework: java(hadoop 1.0.1)
-
-除了INPUT_FILE和OUPUT_PATH外
-
-HADOOP_INSTALL_PATH需要傳入hadoop的lib jar和core
-ex: /hadoop/hadoop-1.0.1/lib/commons-cli-1.2.jar:/hadoop/hadoop-1.0.1/hadoop-core-1.0.1.jar 
-
-不過不知是環境哪裡設定不同，我這邊若加上$(HADOOP_INSTALL_PATH)/bin/ 沒辦法正常運作
